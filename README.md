@@ -1,5 +1,5 @@
 # Smart Mobility Cane
-![image](https://github.com/Kishan-S-U/Smart-Mobility-Cane/assets/95964781/c52c6121-ff2d-43c5-9320-9878b4d5236b)
+<img src="res/white-cane-scaled.jpg"/> 
 Mobility Cane is a supporting aid used by the visually impaired, to navigate from one place to another. The main purpose of this device is to gain awareness about the surroundings (obstacles, walking path etc.). This works, it has been helping millions for many decades now. But, It can be improved by adding more supportive features.
 
 Some scenarios are listed below where the traditional cane is helpless.
