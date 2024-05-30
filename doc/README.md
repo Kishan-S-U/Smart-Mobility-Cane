@@ -15,6 +15,11 @@ Motion Sensing (Xiao-2):
 - Gyroscope and Accelerometer Data: Xiao-2 is equipped with an MPU6050 sensor to gather acceleration and gyroscope data. This data helps in determining the user’s movements and orientation.
 - Wireless Communication: Xiao-2 sends the processed motion data wirelessly to the Master Xiao.
 
+'Find My Device' (Xiao-1):
+-
+- Microphone data: Xiao-1 is equipped with a microphone to read a specific command (claps in our case) to activate the 'Buzzer', this helps to locate the cane if dropped.
+- Wireless communication: Xiao-1 sends the status of buzzer to master-xiao using ESP-NOW protocol.
+
 Central Control and User Guidance (Master Xiao):
 -
 - Data Integration and Processing: The Master Xiao receives the route information from Xiao-3 and the motion data from Xiao-2. It integrates these inputs to understand the user’s current position and movement.
