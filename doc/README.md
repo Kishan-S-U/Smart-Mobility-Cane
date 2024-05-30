@@ -19,6 +19,11 @@ Central Control and User Guidance (Master Xiao):
 -
 - Data Integration and Processing: The Master Xiao receives the route information from Xiao-3 and the motion data from Xiao-2. It integrates these inputs to understand the user’s current position and movement.
 - User Indication: Based on the processed data, the Master Xiao provides navigation instructions to the user. This could be through auditory, visual, or haptic feedback, ensuring the user stays on the correct path.
+- UART communication: master-xiao will send the necessary data to UM feather-S3 using UART protocol.
+
+Cloud Integration (UM Feather S3)
+-
+- Validation: connect to internet and upload data to thingspeak IOT platform for testing (over the air) and analysis.
 
 Key Technologies and APIs
 -
@@ -27,10 +32,10 @@ Key Technologies and APIs
 - APIs: Google Assistant API for voice input and GPS coordination; Google Maps API for route generation.
 - Wireless Communication: EPS-NOW protocol.
 
-Future Scope
+Next Steps
 -
 The main goal of this project is to create a fully equipped mobility cane for the blind. The future of this project is to scale down the electronic components and create a robust device, which will solve all the issues pointed out in the beginning. 
 - Firstly, a single brain [microcontroller] will be used.
 - many additional sensors will be added, like; proximity, ultrasonic, bluetooth etc.
-- unique feedback systems will be implemented to adapt the surroundings.
+- unique feedback systems will be implemented to adapt with the surroundings.
 - More real time testing will take place
