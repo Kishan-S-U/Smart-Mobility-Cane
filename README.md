@@ -27,3 +27,10 @@ Prototype Description
   - microphone
 - Programming language 'C++'
 - Development platform 'Arduino IDE'
+
+Folders Breakdown
+-
+- res: This holds images used in the complete repository.
+- doc: This holds the documentation (complete information about the project)
+- src: This holds the code files
+- test: This holds a sample video of the prototype working
